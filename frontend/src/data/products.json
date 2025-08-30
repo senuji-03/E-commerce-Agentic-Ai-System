@@ -1,0 +1,602 @@
+[
+  {
+    "id": "e1",
+    "name": "Wireless Mouse",
+    "category": "Electronics",
+    "price": 5000
+  },
+  {
+    "id": "e2",
+    "name": "Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 18000
+  },
+  {
+    "id": "e3",
+    "name": "Smartwatch",
+    "category": "Electronics",
+    "price": 45000
+  },
+  {
+    "id": "e4",
+    "name": "Laptop",
+    "category": "Electronics",
+    "price": 0
+  },
+  {
+    "id": "e5",
+    "name": "Mechanical Keyboard",
+    "category": "Electronics",
+    "price": 15000
+  },
+  {
+    "id": "e6",
+    "name": "USB-C Hub",
+    "category": "Electronics",
+    "price": 6500
+  },
+  {
+    "id": "e7",
+    "name": "External Hard Drive 1TB",
+    "category": "Electronics",
+    "price": 14000
+  },
+  {
+    "id": "e8",
+    "name": "Gaming Mousepad",
+    "category": "Electronics",
+    "price": 3500
+  },
+  {
+    "id": "e9",
+    "name": "Webcam 1080p",
+    "category": "Electronics",
+    "price": 9000
+  },
+  {
+    "id": "e10",
+    "name": "Portable Bluetooth Speaker",
+    "category": "Electronics",
+    "price": 12000
+  },
+  {
+    "id": "e11",
+    "name": "Noise-Cancelling Earbuds",
+    "category": "Electronics",
+    "price": 20000
+  },
+  {
+    "id": "e12",
+    "name": "Fitness Smart Band",
+    "category": "Electronics",
+    "price": 12500
+  },
+  {
+    "id": "e13",
+    "name": "HDMI Cable 2m",
+    "category": "Electronics",
+    "price": 1500
+  },
+  {
+    "id": "e14",
+    "name": "Wireless Charger",
+    "category": "Electronics",
+    "price": 4500
+  },
+  {
+    "id": "e15",
+    "name": "Action Camera 4K",
+    "category": "Electronics",
+    "price": 55000
+  },
+  {
+    "id": "e16",
+    "name": "VR Headset",
+    "category": "Electronics",
+    "price": 75000
+  },
+  {
+    "id": "e17",
+    "name": "Tablet 10-inch",
+    "category": "Electronics",
+    "price": 65000
+  },
+  {
+    "id": "e18",
+    "name": "LED Monitor 24-inch",
+    "category": "Electronics",
+    "price": 35000
+  },
+  {
+    "id": "e19",
+    "name": "Graphics Card (GPU)",
+    "category": "Electronics",
+    "price": 150000
+  },
+  {
+    "id": "e20",
+    "name": "Power Bank 20,000 mAh",
+    "category": "Electronics",
+    "price": 8000
+  },
+  {
+    "id": "f1",
+    "name": "Men’s T-Shirt",
+    "category": "Fashion",
+    "price": 2500
+  },
+  {
+    "id": "f2",
+    "name": "Women’s T-Shirt",
+    "category": "Fashion",
+    "price": 2800
+  },
+  {
+    "id": "f3",
+    "name": "Men’s Jeans",
+    "category": "Fashion",
+    "price": 4500
+  },
+  {
+    "id": "f4",
+    "name": "Women’s Jeans",
+    "category": "Fashion",
+    "price": 5000
+  },
+  {
+    "id": "f5",
+    "name": "Hoodie",
+    "category": "Fashion",
+    "price": 4000
+  },
+  {
+    "id": "f6",
+    "name": "Dress",
+    "category": "Fashion",
+    "price": 6500
+  },
+  {
+    "id": "f7",
+    "name": "Jacket",
+    "category": "Fashion",
+    "price": 7500
+  },
+  {
+    "id": "f8",
+    "name": "Sneakers",
+    "category": "Fashion",
+    "price": 6000
+  },
+  {
+    "id": "f9",
+    "name": "Sandals",
+    "category": "Fashion",
+    "price": 3000
+  },
+  {
+    "id": "f10",
+    "name": "Formal Shoes",
+    "category": "Fashion",
+    "price": 8000
+  },
+  {
+    "id": "f11",
+    "name": "Handbag",
+    "category": "Fashion",
+    "price": 5500
+  },
+  {
+    "id": "f12",
+    "name": "Backpack",
+    "category": "Fashion",
+    "price": 4500
+  },
+  {
+    "id": "f13",
+    "name": "Belt",
+    "category": "Fashion",
+    "price": 1500
+  },
+  {
+    "id": "f14",
+    "name": "Sunglasses",
+    "category": "Fashion",
+    "price": 2500
+  },
+  {
+    "id": "f15",
+    "name": "Watch",
+    "category": "Fashion",
+    "price": 10000
+  },
+  {
+    "id": "f16",
+    "name": "Cap",
+    "category": "Fashion",
+    "price": 1800
+  },
+  {
+    "id": "f17",
+    "name": "Scarf",
+    "category": "Fashion",
+    "price": 1200
+  },
+  {
+    "id": "f18",
+    "name": "Socks",
+    "category": "Fashion",
+    "price": 800
+  },
+  {
+    "id": "f19",
+    "name": "Leggings",
+    "category": "Fashion",
+    "price": 2000
+  },
+  {
+    "id": "f20",
+    "name": "Skirt",
+    "category": "Fashion",
+    "price": 3500
+  },
+  {
+    "id": "hk1",
+    "name": "Blender",
+    "category": "Kitchen & Dining",
+    "price": 15000
+  },
+  {
+    "id": "hk2",
+    "name": "Air Fryer",
+    "category": "Kitchen & Dining",
+    "price": 25000
+  },
+  {
+    "id": "hk3",
+    "name": "Toaster",
+    "category": "Kitchen & Dining",
+    "price": 7500
+  },
+  {
+    "id": "hk4",
+    "name": "Microwave Oven",
+    "category": "Kitchen & Dining",
+    "price": 40000
+  },
+  {
+    "id": "hk5",
+    "name": "Electric Kettle",
+    "category": "Kitchen & Dining",
+    "price": 5500
+  },
+  {
+    "id": "hk6",
+    "name": "Coffee Maker",
+    "category": "Kitchen & Dining",
+    "price": 12000
+  },
+  {
+    "id": "hk7",
+    "name": "Juicer",
+    "category": "Kitchen & Dining",
+    "price": 18000
+  },
+  {
+    "id": "hk8",
+    "name": "Rice Cooker",
+    "category": "Kitchen & Dining",
+    "price": 10000
+  },
+  {
+    "id": "hk9",
+    "name": "Gas Stove",
+    "category": "Kitchen & Dining",
+    "price": 35000
+  },
+  {
+    "id": "hk10",
+    "name": "Non-stick Frying Pan",
+    "category": "Kitchen & Dining",
+    "price": 6000
+  },
+  {
+    "id": "hk11",
+    "name": "Knife Set",
+    "category": "Kitchen & Dining",
+    "price": 8500
+  },
+  {
+    "id": "hk12",
+    "name": "Cutting Board Set",
+    "category": "Kitchen & Dining",
+    "price": 3500
+  },
+  {
+    "id": "hk13",
+    "name": "Pressure Cooker",
+    "category": "Kitchen & Dining",
+    "price": 12500
+  },
+  {
+    "id": "hk14",
+    "name": "Blender Bottle",
+    "category": "Kitchen & Dining",
+    "price": 2000
+  },
+  {
+    "id": "hk15",
+    "name": "Food Storage Containers",
+    "category": "Kitchen & Dining",
+    "price": 3000
+  },
+  {
+    "id": "hk16",
+    "name": "Dish Rack",
+    "category": "Kitchen & Dining",
+    "price": 2500
+  },
+  {
+    "id": "hk17",
+    "name": "Electric Grill",
+    "category": "Kitchen & Dining",
+    "price": 14000
+  },
+  {
+    "id": "hk18",
+    "name": "Oven Mitts",
+    "category": "Kitchen & Dining",
+    "price": 1200
+  },
+  {
+    "id": "hk19",
+    "name": "Tableware Set",
+    "category": "Kitchen & Dining",
+    "price": 5500
+  },
+  {
+    "id": "hk20",
+    "name": "Ceramic Cooking Pot",
+    "category": "Kitchen & Dining",
+    "price": 8500
+  },
+  {
+    "id": "bp1",
+    "name": "Facial Cleanser",
+    "category": "Beauty & Personal Care",
+    "price": 1200
+  },
+  {
+    "id": "bp2",
+    "name": "Moisturizer",
+    "category": "Beauty & Personal Care",
+    "price": 1500
+  },
+  {
+    "id": "bp3",
+    "name": "Sunscreen SPF 50",
+    "category": "Beauty & Personal Care",
+    "price": 1800
+  },
+  {
+    "id": "bp4",
+    "name": "Shampoo",
+    "category": "Beauty & Personal Care",
+    "price": 900
+  },
+  {
+    "id": "bp5",
+    "name": "Conditioner",
+    "category": "Beauty & Personal Care",
+    "price": 900
+  },
+  {
+    "id": "bp6",
+    "name": "Body Lotion",
+    "category": "Beauty & Personal Care",
+    "price": 1200
+  },
+  {
+    "id": "bp7",
+    "name": "Lip Balm",
+    "category": "Beauty & Personal Care",
+    "price": 500
+  },
+  {
+    "id": "bp8",
+    "name": "Hair Oil",
+    "category": "Beauty & Personal Care",
+    "price": 700
+  },
+  {
+    "id": "bp9",
+    "name": "Perfume",
+    "category": "Beauty & Personal Care",
+    "price": 2500
+  },
+  {
+    "id": "bp10",
+    "name": "Makeup Kit",
+    "category": "Beauty & Personal Care",
+    "price": 3500
+  },
+  {
+    "id": "bp11",
+    "name": "Foundation",
+    "category": "Beauty & Personal Care",
+    "price": 1500
+  },
+  {
+    "id": "bp12",
+    "name": "Lipstick",
+    "category": "Beauty & Personal Care",
+    "price": 800
+  },
+  {
+    "id": "bp13",
+    "name": "Eyeliner",
+    "category": "Beauty & Personal Care",
+    "price": 600
+  },
+  {
+    "id": "bp14",
+    "name": "Nail Polish",
+    "category": "Beauty & Personal Care",
+    "price": 500
+  },
+  {
+    "id": "bp15",
+    "name": "Hair Dryer",
+    "category": "Beauty & Personal Care",
+    "price": 4500
+  },
+  {
+    "id": "bp16",
+    "name": "Electric Hair Straightener",
+    "category": "Beauty & Personal Care",
+    "price": 5000
+  },
+  {
+    "id": "bp17",
+    "name": "Razor",
+    "category": "Beauty & Personal Care",
+    "price": 3000
+  },
+  {
+    "id": "bp18",
+    "name": "Toothpaste",
+    "category": "Beauty & Personal Care",
+    "price": 400
+  },
+  {
+    "id": "bp19",
+    "name": "Toothbrush",
+    "category": "Beauty & Personal Care",
+    "price": 300
+  },
+  {
+    "id": "bp20",
+    "name": "Face Mask",
+    "category": "Beauty & Personal Care",
+    "price": 600
+  },
+  {
+    "id": "hl1",
+    "name": "Sofa Set",
+    "category": "Home & Living",
+    "price": 120000
+  },
+  {
+    "id": "hl2",
+    "name": "Wooden Dining Table",
+    "category": "Home & Living",
+    "price": 85000
+  },
+  {
+    "id": "hl3",
+    "name": "Office Chair",
+    "category": "Home & Living",
+    "price": 35000
+  },
+  {
+    "id": "hl4",
+    "name": "Bookshelf",
+    "category": "Home & Living",
+    "price": 22000
+  },
+  {
+    "id": "hl5",
+    "name": "Wardrobe Cabinet",
+    "category": "Home & Living",
+    "price": 75000
+  },
+  {
+    "id": "hl6",
+    "name": "Shoe Rack",
+    "category": "Home & Living",
+    "price": 12500
+  },
+  {
+    "id": "hl7",
+    "name": "Coffee Table",
+    "category": "Home & Living",
+    "price": 18000
+  },
+  {
+    "id": "hl8",
+    "name": "Bedside Table",
+    "category": "Home & Living",
+    "price": 14000
+  },
+  {
+    "id": "hl9",
+    "name": "Floor Lamp",
+    "category": "Home & Living",
+    "price": 9500
+  },
+  {
+    "id": "hl10",
+    "name": "Wall Clock",
+    "category": "Home & Living",
+    "price": 6000
+  },
+  {
+    "id": "hl11",
+    "name": "Curtains",
+    "category": "Home & Living",
+    "price": 8000
+  },
+  {
+    "id": "hl12",
+    "name": "Rug",
+    "category": "Home & Living",
+    "price": 15000
+  },
+  {
+    "id": "hl13",
+    "name": "Laundry Basket",
+    "category": "Home & Living",
+    "price": 4500
+  },
+  {
+    "id": "hl14",
+    "name": "Cushion Set",
+    "category": "Home & Living",
+    "price": 3800
+  },
+  {
+    "id": "hl15",
+    "name": "Wall Shelf",
+    "category": "Home & Living",
+    "price": 5500
+  },
+  {
+    "id": "hl16",
+    "name": "Mirror",
+    "category": "Home & Living",
+    "price": 12000
+  },
+  {
+    "id": "hl17",
+    "name": "Table Lamp",
+    "category": "Home & Living",
+    "price": 7000
+  },
+  {
+    "id": "hl18",
+    "name": "Blanket",
+    "category": "Home & Living",
+    "price": 10000
+  },
+  {
+    "id": "hl19",
+    "name": "Bean Bag Chair",
+    "category": "Home & Living",
+    "price": 16000
+  },
+  {
+    "id": "hl20",
+    "name": "Wall Art Painting",
+    "category": "Home & Living",
+    "price": 9000
+  }
+]

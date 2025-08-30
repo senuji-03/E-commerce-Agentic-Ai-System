@@ -1,0 +1,406 @@
+[
+  { "product_id": "e1", "date": "2025-08-01", "price": 5100 },
+  { "product_id": "e1", "date": "2025-08-10", "price": 5000 },
+  { "product_id": "e1", "date": "2025-08-20", "price": 4950 },
+
+  { "product_id": "e2", "date": "2025-08-02", "price": 18500 },
+  { "product_id": "e2", "date": "2025-08-12", "price": 18000 },
+  { "product_id": "e2", "date": "2025-08-22", "price": 17800 },
+
+  { "product_id": "e3", "date": "2025-08-03", "price": 46000 },
+  { "product_id": "e3", "date": "2025-08-13", "price": 45000 },
+  { "product_id": "e3", "date": "2025-08-23", "price": 44500 },
+
+  { "product_id": "e4", "date": "2025-08-01", "price": 350000 },
+  { "product_id": "e4", "date": "2025-08-10", "price": 348000 },
+  { "product_id": "e4", "date": "2025-08-20", "price": 345000 },
+
+  { "product_id": "e5", "date": "2025-08-02", "price": 15200 },
+  { "product_id": "e5", "date": "2025-08-12", "price": 15000 },
+  { "product_id": "e5", "date": "2025-08-22", "price": 14850 },
+
+  { "product_id": "e6", "date": "2025-08-03", "price": 6600 },
+  { "product_id": "e6", "date": "2025-08-13", "price": 6500 },
+  { "product_id": "e6", "date": "2025-08-23", "price": 6400 },
+
+  { "product_id": "e7", "date": "2025-08-01", "price": 14200 },
+  { "product_id": "e7", "date": "2025-08-10", "price": 14000 },
+  { "product_id": "e7", "date": "2025-08-20", "price": 13850 },
+
+  { "product_id": "e8", "date": "2025-08-02", "price": 3600 },
+  { "product_id": "e8", "date": "2025-08-12", "price": 3500 },
+  { "product_id": "e8", "date": "2025-08-22", "price": 3450 },
+
+  { "product_id": "e9", "date": "2025-08-03", "price": 9200 },
+  { "product_id": "e9", "date": "2025-08-13", "price": 9000 },
+  { "product_id": "e9", "date": "2025-08-23", "price": 8800 },
+
+  { "product_id": "e10", "date": "2025-08-01", "price": 12200 },
+  { "product_id": "e10", "date": "2025-08-10", "price": 12000 },
+  { "product_id": "e10", "date": "2025-08-20", "price": 11850 },
+
+  { "product_id": "e11", "date": "2025-08-02", "price": 20500 },
+  { "product_id": "e11", "date": "2025-08-12", "price": 20000 },
+  { "product_id": "e11", "date": "2025-08-22", "price": 19800 },
+
+  { "product_id": "e12", "date": "2025-08-03", "price": 12700 },
+  { "product_id": "e12", "date": "2025-08-13", "price": 12500 },
+  { "product_id": "e12", "date": "2025-08-23", "price": 12350 },
+
+  { "product_id": "e13", "date": "2025-08-01", "price": 1550 },
+  { "product_id": "e13", "date": "2025-08-10", "price": 1500 },
+  { "product_id": "e13", "date": "2025-08-20", "price": 1480 },
+
+  { "product_id": "e14", "date": "2025-08-02", "price": 4600 },
+  { "product_id": "e14", "date": "2025-08-12", "price": 4500 },
+  { "product_id": "e14", "date": "2025-08-22", "price": 4400 },
+
+  { "product_id": "e15", "date": "2025-08-03", "price": 56000 },
+  { "product_id": "e15", "date": "2025-08-13", "price": 55000 },
+  { "product_id": "e15", "date": "2025-08-23", "price": 54500 },
+
+  { "product_id": "e16", "date": "2025-08-01", "price": 76000 },
+  { "product_id": "e16", "date": "2025-08-10", "price": 75000 },
+  { "product_id": "e16", "date": "2025-08-20", "price": 74000 },
+
+  { "product_id": "e17", "date": "2025-08-02", "price": 66000 },
+  { "product_id": "e17", "date": "2025-08-12", "price": 65000 },
+  { "product_id": "e17", "date": "2025-08-22", "price": 64500 },
+
+  { "product_id": "e18", "date": "2025-08-03", "price": 35500 },
+  { "product_id": "e18", "date": "2025-08-13", "price": 35000 },
+  { "product_id": "e18", "date": "2025-08-23", "price": 34800 },
+
+  { "product_id": "e19", "date": "2025-08-01", "price": 152000 },
+  { "product_id": "e19", "date": "2025-08-10", "price": 150000 },
+  { "product_id": "e19", "date": "2025-08-20", "price": 148500 },
+
+  { "product_id": "e20", "date": "2025-08-02", "price": 8200 },
+  { "product_id": "e20", "date": "2025-08-12", "price": 8000 },
+  { "product_id": "e20", "date": "2025-08-22", "price": 7900 },
+
+  { "product_id": "bp1", "date": "2025-08-01", "price": 1250 },
+  { "product_id": "bp1", "date": "2025-08-10", "price": 1200 },
+  { "product_id": "bp1", "date": "2025-08-20", "price": 1150 },
+
+  { "product_id": "bp2", "date": "2025-08-01", "price": 1550 },
+  { "product_id": "bp2", "date": "2025-08-10", "price": 1500 },
+  { "product_id": "bp2", "date": "2025-08-20", "price": 1480 },
+
+  { "product_id": "bp3", "date": "2025-08-01", "price": 1850 },
+  { "product_id": "bp3", "date": "2025-08-10", "price": 1800 },
+  { "product_id": "bp3", "date": "2025-08-20", "price": 1750 },
+
+  { "product_id": "bp4", "date": "2025-08-01", "price": 950 },
+  { "product_id": "bp4", "date": "2025-08-10", "price": 900 },
+  { "product_id": "bp4", "date": "2025-08-20", "price": 880 },
+
+  { "product_id": "bp5", "date": "2025-08-01", "price": 950 },
+  { "product_id": "bp5", "date": "2025-08-10", "price": 900 },
+  { "product_id": "bp5", "date": "2025-08-20", "price": 880 },
+
+  { "product_id": "bp6", "date": "2025-08-01", "price": 1250 },
+  { "product_id": "bp6", "date": "2025-08-10", "price": 1200 },
+  { "product_id": "bp6", "date": "2025-08-20", "price": 1180 },
+
+  { "product_id": "bp7", "date": "2025-08-01", "price": 550 },
+  { "product_id": "bp7", "date": "2025-08-10", "price": 500 },
+  { "product_id": "bp7", "date": "2025-08-20", "price": 480 },
+
+  { "product_id": "bp8", "date": "2025-08-01", "price": 750 },
+  { "product_id": "bp8", "date": "2025-08-10", "price": 700 },
+  { "product_id": "bp8", "date": "2025-08-20", "price": 680 },
+
+  { "product_id": "bp9", "date": "2025-08-01", "price": 2600 },
+  { "product_id": "bp9", "date": "2025-08-10", "price": 2500 },
+  { "product_id": "bp9", "date": "2025-08-20", "price": 2450 },
+
+  { "product_id": "bp10", "date": "2025-08-01", "price": 3600 },
+  { "product_id": "bp10", "date": "2025-08-10", "price": 3500 },
+  { "product_id": "bp10", "date": "2025-08-20", "price": 3450 },
+
+  { "product_id": "bp11", "date": "2025-08-01", "price": 1550 },
+  { "product_id": "bp11", "date": "2025-08-10", "price": 1500 },
+  { "product_id": "bp11", "date": "2025-08-20", "price": 1480 },
+
+  { "product_id": "bp12", "date": "2025-08-01", "price": 850 },
+  { "product_id": "bp12", "date": "2025-08-10", "price": 800 },
+  { "product_id": "bp12", "date": "2025-08-20", "price": 780 },
+
+  { "product_id": "bp13", "date": "2025-08-01", "price": 650 },
+  { "product_id": "bp13", "date": "2025-08-10", "price": 600 },
+  { "product_id": "bp13", "date": "2025-08-20", "price": 580 },
+
+  { "product_id": "bp14", "date": "2025-08-01", "price": 550 },
+  { "product_id": "bp14", "date": "2025-08-10", "price": 500 },
+  { "product_id": "bp14", "date": "2025-08-20", "price": 480 },
+
+  { "product_id": "bp15", "date": "2025-08-01", "price": 4600 },
+  { "product_id": "bp15", "date": "2025-08-10", "price": 4500 },
+  { "product_id": "bp15", "date": "2025-08-20", "price": 4400 },
+
+  { "product_id": "bp16", "date": "2025-08-01", "price": 5100 },
+  { "product_id": "bp16", "date": "2025-08-10", "price": 5000 },
+  { "product_id": "bp16", "date": "2025-08-20", "price": 4900 },
+
+  { "product_id": "bp17", "date": "2025-08-01", "price": 3100 },
+  { "product_id": "bp17", "date": "2025-08-10", "price": 3000 },
+  { "product_id": "bp17", "date": "2025-08-20", "price": 2950 },
+
+  { "product_id": "bp18", "date": "2025-08-01", "price": 420 },
+  { "product_id": "bp18", "date": "2025-08-10", "price": 400 },
+  { "product_id": "bp18", "date": "2025-08-20", "price": 380 },
+
+  { "product_id": "bp19", "date": "2025-08-01", "price": 320 },
+  { "product_id": "bp19", "date": "2025-08-10", "price": 300 },
+  { "product_id": "bp19", "date": "2025-08-20", "price": 280 },
+
+  { "product_id": "bp20", "date": "2025-08-01", "price": 650 },
+  { "product_id": "bp20", "date": "2025-08-10", "price": 600 },
+  { "product_id": "bp20", "date": "2025-08-20", "price": 580 },
+
+  { "product_id": "hl1", "date": "2025-08-01", "price": 122000 },
+  { "product_id": "hl1", "date": "2025-08-10", "price": 120000 },
+  { "product_id": "hl1", "date": "2025-08-20", "price": 118500 },
+
+  { "product_id": "hl2", "date": "2025-08-01", "price": 87000 },
+  { "product_id": "hl2", "date": "2025-08-10", "price": 85000 },
+  { "product_id": "hl2", "date": "2025-08-20", "price": 83000 },
+
+  { "product_id": "hl3", "date": "2025-08-01", "price": 36000 },
+  { "product_id": "hl3", "date": "2025-08-10", "price": 35000 },
+  { "product_id": "hl3", "date": "2025-08-20", "price": 34500 },
+
+  { "product_id": "hl4", "date": "2025-08-01", "price": 22500 },
+  { "product_id": "hl4", "date": "2025-08-10", "price": 22000 },
+  { "product_id": "hl4", "date": "2025-08-20", "price": 21800 },
+
+  { "product_id": "hl5", "date": "2025-08-01", "price": 77000 },
+  { "product_id": "hl5", "date": "2025-08-10", "price": 75000 },
+  { "product_id": "hl5", "date": "2025-08-20", "price": 73500 },
+
+  { "product_id": "hl6", "date": "2025-08-01", "price": 12750 },
+  { "product_id": "hl6", "date": "2025-08-10", "price": 12500 },
+  { "product_id": "hl6", "date": "2025-08-20", "price": 12300 },
+
+  { "product_id": "hl7", "date": "2025-08-01", "price": 18250 },
+  { "product_id": "hl7", "date": "2025-08-10", "price": 18000 },
+  { "product_id": "hl7", "date": "2025-08-20", "price": 17750 },
+
+  { "product_id": "hl8", "date": "2025-08-01", "price": 14200 },
+  { "product_id": "hl8", "date": "2025-08-10", "price": 14000 },
+  { "product_id": "hl8", "date": "2025-08-20", "price": 13800 },
+
+  { "product_id": "hl9", "date": "2025-08-01", "price": 9700 },
+  { "product_id": "hl9", "date": "2025-08-10", "price": 9500 },
+  { "product_id": "hl9", "date": "2025-08-20", "price": 9300 },
+
+  { "product_id": "hl10", "date": "2025-08-01", "price": 6200 },
+  { "product_id": "hl10", "date": "2025-08-10", "price": 6000 },
+  { "product_id": "hl10", "date": "2025-08-20", "price": 5800 },
+
+  { "product_id": "hl11", "date": "2025-08-01", "price": 8200 },
+  { "product_id": "hl11", "date": "2025-08-10", "price": 8000 },
+  { "product_id": "hl11", "date": "2025-08-20", "price": 7800 },
+
+  { "product_id": "hl12", "date": "2025-08-01", "price": 15200 },
+  { "product_id": "hl12", "date": "2025-08-10", "price": 15000 },
+  { "product_id": "hl12", "date": "2025-08-20", "price": 14800 },
+
+  { "product_id": "hl13", "date": "2025-08-01", "price": 4600 },
+  { "product_id": "hl13", "date": "2025-08-10", "price": 4500 },
+  { "product_id": "hl13", "date": "2025-08-20", "price": 4400 },
+
+  { "product_id": "hl14", "date": "2025-08-01", "price": 3850 },
+  { "product_id": "hl14", "date": "2025-08-10", "price": 3800 },
+  { "product_id": "hl14", "date": "2025-08-20", "price": 3750 },
+
+  { "product_id": "hl15", "date": "2025-08-01", "price": 5600 },
+  { "product_id": "hl15", "date": "2025-08-10", "price": 5500 },
+  { "product_id": "hl15", "date": "2025-08-20", "price": 5400 },
+
+  { "product_id": "hl16", "date": "2025-08-01", "price": 12300 },
+  { "product_id": "hl16", "date": "2025-08-10", "price": 12000 },
+  { "product_id": "hl16", "date": "2025-08-20", "price": 11800 },
+
+  { "product_id": "hl17", "date": "2025-08-01", "price": 7200 },
+  { "product_id": "hl17", "date": "2025-08-10", "price": 7000 },
+  { "product_id": "hl17", "date": "2025-08-20", "price": 6800 },
+
+  { "product_id": "hl18", "date": "2025-08-01", "price": 10200 },
+  { "product_id": "hl18", "date": "2025-08-10", "price": 10000 },
+  { "product_id": "hl18", "date": "2025-08-20", "price": 9800 },
+
+  { "product_id": "hl19", "date": "2025-08-01", "price": 16200 },
+  { "product_id": "hl19", "date": "2025-08-10", "price": 16000 },
+  { "product_id": "hl19", "date": "2025-08-20", "price": 15800 },
+
+  { "product_id": "hl20", "date": "2025-08-01", "price": 9200 },
+  { "product_id": "hl20", "date": "2025-08-10", "price": 9000 },
+  { "product_id": "hl20", "date": "2025-08-20", "price": 8800 },
+
+  { "product_id": "f1", "date": "2025-08-01", "price": 2600 },
+  { "product_id": "f1", "date": "2025-08-10", "price": 2500 },
+  { "product_id": "f1", "date": "2025-08-20", "price": 2450 },
+
+  { "product_id": "f2", "date": "2025-08-01", "price": 2900 },
+  { "product_id": "f2", "date": "2025-08-10", "price": 2800 },
+  { "product_id": "f2", "date": "2025-08-20", "price": 2750 },
+
+  { "product_id": "f3", "date": "2025-08-01", "price": 4600 },
+  { "product_id": "f3", "date": "2025-08-10", "price": 4500 },
+  { "product_id": "f3", "date": "2025-08-20", "price": 4450 },
+
+  { "product_id": "f4", "date": "2025-08-01", "price": 5100 },
+  { "product_id": "f4", "date": "2025-08-10", "price": 5000 },
+  { "product_id": "f4", "date": "2025-08-20", "price": 4950 },
+
+  { "product_id": "f5", "date": "2025-08-01", "price": 4200 },
+  { "product_id": "f5", "date": "2025-08-10", "price": 4000 },
+  { "product_id": "f5", "date": "2025-08-20", "price": 3950 },
+
+  { "product_id": "f6", "date": "2025-08-01", "price": 6700 },
+  { "product_id": "f6", "date": "2025-08-10", "price": 6500 },
+  { "product_id": "f6", "date": "2025-08-20", "price": 6400 },
+
+  { "product_id": "f7", "date": "2025-08-01", "price": 7700 },
+  { "product_id": "f7", "date": "2025-08-10", "price": 7500 },
+  { "product_id": "f7", "date": "2025-08-20", "price": 7400 },
+
+  { "product_id": "f8", "date": "2025-08-01", "price": 6200 },
+  { "product_id": "f8", "date": "2025-08-10", "price": 6000 },
+  { "product_id": "f8", "date": "2025-08-20", "price": 5900 },
+
+  { "product_id": "f9", "date": "2025-08-01", "price": 3100 },
+  { "product_id": "f9", "date": "2025-08-10", "price": 3000 },
+  { "product_id": "f9", "date": "2025-08-20", "price": 2950 },
+
+  { "product_id": "f10", "date": "2025-08-01", "price": 8200 },
+  { "product_id": "f10", "date": "2025-08-10", "price": 8000 },
+  { "product_id": "f10", "date": "2025-08-20", "price": 7900 },
+
+  { "product_id": "f11", "date": "2025-08-01", "price": 5600 },
+  { "product_id": "f11", "date": "2025-08-10", "price": 5500 },
+  { "product_id": "f11", "date": "2025-08-20", "price": 5400 },
+
+  { "product_id": "f12", "date": "2025-08-01", "price": 4600 },
+  { "product_id": "f12", "date": "2025-08-10", "price": 4500 },
+  { "product_id": "f12", "date": "2025-08-20", "price": 4400 },
+
+  { "product_id": "f13", "date": "2025-08-01", "price": 1550 },
+  { "product_id": "f13", "date": "2025-08-10", "price": 1500 },
+  { "product_id": "f13", "date": "2025-08-20", "price": 1450 },
+
+  { "product_id": "f14", "date": "2025-08-01", "price": 2600 },
+  { "product_id": "f14", "date": "2025-08-10", "price": 2500 },
+  { "product_id": "f14", "date": "2025-08-20", "price": 2450 },
+
+  { "product_id": "f15", "date": "2025-08-01", "price": 10200 },
+  { "product_id": "f15", "date": "2025-08-10", "price": 10000 },
+  { "product_id": "f15", "date": "2025-08-20", "price": 9800 },
+
+  { "product_id": "f16", "date": "2025-08-01", "price": 1850 },
+  { "product_id": "f16", "date": "2025-08-10", "price": 1800 },
+  { "product_id": "f16", "date": "2025-08-20", "price": 1750 },
+
+  { "product_id": "f17", "date": "2025-08-01", "price": 1250 },
+  { "product_id": "f17", "date": "2025-08-10", "price": 1200 },
+  { "product_id": "f17", "date": "2025-08-20", "price": 1150 },
+
+  { "product_id": "f18", "date": "2025-08-01", "price": 850 },
+  { "product_id": "f18", "date": "2025-08-10", "price": 800 },
+  { "product_id": "f18", "date": "2025-08-20", "price": 780 },
+
+  { "product_id": "f19", "date": "2025-08-01", "price": 2100 },
+  { "product_id": "f19", "date": "2025-08-10", "price": 2000 },
+  { "product_id": "f19", "date": "2025-08-20", "price": 1950 },
+
+  { "product_id": "f20", "date": "2025-08-01", "price": 3600 },
+  { "product_id": "f20", "date": "2025-08-10", "price": 3500 },
+  { "product_id": "f20", "date": "2025-08-20", "price": 3450 },
+
+  { "product_id": "hk1", "date": "2025-08-01", "price": 15500 },
+  { "product_id": "hk1", "date": "2025-08-10", "price": 15000 },
+  { "product_id": "hk1", "date": "2025-08-20", "price": 14800 },
+
+  { "product_id": "hk2", "date": "2025-08-01", "price": 25500 },
+  { "product_id": "hk2", "date": "2025-08-10", "price": 25000 },
+  { "product_id": "hk2", "date": "2025-08-20", "price": 24500 },
+
+  { "product_id": "hk3", "date": "2025-08-01", "price": 7800 },
+  { "product_id": "hk3", "date": "2025-08-10", "price": 7500 },
+  { "product_id": "hk3", "date": "2025-08-20", "price": 7200 },
+
+  { "product_id": "hk4", "date": "2025-08-01", "price": 42000 },
+  { "product_id": "hk4", "date": "2025-08-10", "price": 40000 },
+  { "product_id": "hk4", "date": "2025-08-20", "price": 39500 },
+
+  { "product_id": "hk5", "date": "2025-08-01", "price": 5700 },
+  { "product_id": "hk5", "date": "2025-08-10", "price": 5500 },
+  { "product_id": "hk5", "date": "2025-08-20", "price": 5400 },
+
+  { "product_id": "hk6", "date": "2025-08-01", "price": 12300 },
+  { "product_id": "hk6", "date": "2025-08-10", "price": 12000 },
+  { "product_id": "hk6", "date": "2025-08-20", "price": 11850 },
+
+  { "product_id": "hk7", "date": "2025-08-01", "price": 18200 },
+  { "product_id": "hk7", "date": "2025-08-10", "price": 18000 },
+  { "product_id": "hk7", "date": "2025-08-20", "price": 17750 },
+
+  { "product_id": "hk8", "date": "2025-08-01", "price": 10250 },
+  { "product_id": "hk8", "date": "2025-08-10", "price": 10000 },
+  { "product_id": "hk8", "date": "2025-08-20", "price": 9750 },
+
+  { "product_id": "hk9", "date": "2025-08-01", "price": 35500 },
+  { "product_id": "hk9", "date": "2025-08-10", "price": 35000 },
+  { "product_id": "hk9", "date": "2025-08-20", "price": 34500 },
+
+  { "product_id": "hk10", "date": "2025-08-01", "price": 6200 },
+  { "product_id": "hk10", "date": "2025-08-10", "price": 6000 },
+  { "product_id": "hk10", "date": "2025-08-20", "price": 5800 },
+
+  { "product_id": "hk11", "date": "2025-08-01", "price": 8700 },
+  { "product_id": "hk11", "date": "2025-08-10", "price": 8500 },
+  { "product_id": "hk11", "date": "2025-08-20", "price": 8300 },
+
+  { "product_id": "hk12", "date": "2025-08-01", "price": 3600 },
+  { "product_id": "hk12", "date": "2025-08-10", "price": 3500 },
+  { "product_id": "hk12", "date": "2025-08-20", "price": 3400 },
+
+  { "product_id": "hk13", "date": "2025-08-01", "price": 12750 },
+  { "product_id": "hk13", "date": "2025-08-10", "price": 12500 },
+  { "product_id": "hk13", "date": "2025-08-20", "price": 12300 },
+
+  { "product_id": "hk14", "date": "2025-08-01", "price": 2100 },
+  { "product_id": "hk14", "date": "2025-08-10", "price": 2000 },
+  { "product_id": "hk14", "date": "2025-08-20", "price": 1950 },
+
+  { "product_id": "hk15", "date": "2025-08-01", "price": 3100 },
+  { "product_id": "hk15", "date": "2025-08-10", "price": 3000 },
+  { "product_id": "hk15", "date": "2025-08-20", "price": 2900 },
+
+  { "product_id": "hk16", "date": "2025-08-01", "price": 2600 },
+  { "product_id": "hk16", "date": "2025-08-10", "price": 2500 },
+  { "product_id": "hk16", "date": "2025-08-20", "price": 2450 },
+
+  { "product_id": "hk17", "date": "2025-08-01", "price": 14200 },
+  { "product_id": "hk17", "date": "2025-08-10", "price": 14000 },
+  { "product_id": "hk17", "date": "2025-08-20", "price": 13800 },
+
+  { "product_id": "hk18", "date": "2025-08-01", "price": 1250 },
+  { "product_id": "hk18", "date": "2025-08-10", "price": 1200 },
+  { "product_id": "hk18", "date": "2025-08-20", "price": 1150 },
+
+  { "product_id": "hk19", "date": "2025-08-01", "price": 5600 },
+  { "product_id": "hk19", "date": "2025-08-10", "price": 5500 },
+  { "product_id": "hk19", "date": "2025-08-20", "price": 5400 },
+
+  { "product_id": "hk20", "date": "2025-08-01", "price": 8700 },
+  { "product_id": "hk20", "date": "2025-08-10", "price": 8500 },
+  { "product_id": "hk20", "date": "2025-08-20", "price": 8300 }
+
+]
+
+
+
+

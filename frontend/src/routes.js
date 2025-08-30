@@ -15,6 +15,7 @@ import AllProducts from "./Pages/AllProducts";
 import NotFound from "./Pages/NotFound";
 import Category from "./Pages/Category";
 import ProductTable from "./components/common/components/ProductTable";
+import PriceTracker from "./Pages/PriceTracker";
 
 const routes = [
   {
@@ -34,6 +35,7 @@ const routes = [
       { path: "allProducts", element: AllProducts },
       { path: "category", element: Category },
       { path: "productTable", element: ProductTable },
+      { path: "price-tracker", element: PriceTracker },
       { path: "allProducts/:title", element: Product },
       { path: "*", element: NotFound },
     ],
