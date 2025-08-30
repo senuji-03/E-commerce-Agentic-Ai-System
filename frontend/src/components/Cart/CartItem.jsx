@@ -63,7 +63,7 @@ const CartItem = ({ item }) => {
         <p className="hidden lg:flex text-xs md:text-base ">{item.title}</p>
       </div>
       <div className="flex items-center ">
-        <p className="text-gray-500">${item.price}</p>
+        <p className="text-gray-500">{item.price}</p>
       </div>
       <div className="flex items-center border-2 border-gray-300  rounded px-2 py-1  mr-2 gap-3">
         <p className="text-gray-500">{quantity}</p>
@@ -84,7 +84,7 @@ const CartItem = ({ item }) => {
         </div>
       </div>
       <div className="items-center hidden md:flex">
-        <p className="text-gray-500">${item.price * quantity}</p>
+        <p className="text-gray-500">{item.price}</p>
       </div>
     </div>
   );

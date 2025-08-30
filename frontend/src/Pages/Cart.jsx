@@ -10,10 +10,18 @@ import { Link } from "react-router-dom";
 const Cart = () => {
   const { cartItems } = useCart();
 
+  // Helper function to extract numeric price from "Rs. X,XXX" format
+  const extractPrice = (price) => {
+    if (typeof price === 'string' && price.startsWith('Rs.')) {
+      return Number(price.replace(/[^\d]/g, ''));
+    }
+    return Number(price) || 0;
+  };
+
   // Calculate subtotal of all cart items
-  const subtotal = cartItems.reduce((acc, item) => acc + item.price, 0);
+  const subtotal = cartItems.reduce((acc, item) => acc + extractPrice(item.price), 0);
   const total = cartItems.reduce(
-    (acc, item) => acc + item.price * item.quantity,
+    (acc, item) => acc + extractPrice(item.price) * item.quantity,
     0
   );
 
@@ -59,11 +67,11 @@ const Cart = () => {
           <p className="text-xl font-semibold">{i18n.t("cart.cartTotal")}</p>
           <div className="flex justify-between mt-4 border-b">
             <p className="text-xl">{i18n.t("cart.total")}:</p>
-            <p className="text-xl">${subtotal}</p>
+            <p className="text-xl">Rs. {subtotal.toLocaleString()}</p>
           </div>
           <div className="flex justify-between mt-4 border-b">
             <p className="text-xl">{i18n.t("cart.subtotal")}:</p>
-            <p className="text-xl">${total}</p>
+            <p className="text-xl">Rs. {total.toLocaleString()}</p>
           </div>
           <div className="flex justify-between mt-4 border-b">
             <p className="text-xl">{i18n.t("cart.shipping")}:</p>
