@@ -10,9 +10,7 @@ import WhiteButton from "../components/common/components/WhiteButton";
 
 const Category = () => {
   const [anchorEl, setAnchorEl] = useState(null);
-  const [selectedCategory, setSelectedCategory] = useState(
-    i18n.t("categories.technology")
-  );
+  const [selectedCategory, setSelectedCategory] = useState("Electronics");
 
   const handleMenuOpen = (event) => {
     setAnchorEl(event.currentTarget);
@@ -30,73 +28,107 @@ const Category = () => {
   // Filter ITEMS based on the selected category
   const filteredItems = ITEMS.filter((item) => item.type === selectedCategory);
 
-  return (
-    <div className="container mx-auto mt-40 flex flex-col gap-5">
-      <Typography variant="h3" align="center" gutterBottom>
-        {i18n.t("allProducts.byCategory")}
-      </Typography>
-      <div className="flex justify-center mb-4">
-        <Button
-          style={{
-            backgroundColor: "rgba(219, 68, 68, 1)",
-            color: "white",
-            fontWeight: "bold",
-            padding: "10px 20px",
-            borderRadius: "5px",
-            textTransform: "capitalize",
-            boxShadow: "0 2px 4px rgba(0, 0, 0, .2)",
-          }}
-          variant="contained"
-          startIcon={<ArrowDropDownIcon />}
-          onClick={handleMenuOpen}
-        >
-          {i18n.t("redButtons.chooseByCategory")}
-        </Button>
+  const categories = [
+    "Electronics",
+    "Fashion", 
+    "Kitchen & Dining",
+    "Beauty & Personal Care",
+    "Home & Living"
+  ];
 
-        <Menu
-          id="category-menu"
-          anchorEl={anchorEl}
-          open={Boolean(anchorEl)}
-          onClose={handleMenuClose}
-          className="mt-1 flex items-center justify-center mx-1"
-        >
-          {[
-            i18n.t("categories.general"),
-            i18n.t("categories.technology"),
-            i18n.t("categories.gaming"),
-            i18n.t("categories.clothes"),
-            i18n.t("categories.newArrival"),
-          ].map((category) => (
-            <MenuItem
-              className="w-36"
-              key={category}
-              onClick={() => handleCategorySelect(category)}
-            >
-              <span className="text-xl mx-auto">{category}</span>
-            </MenuItem>
-          ))}
-        </Menu>
-      </div>
-      <div className="relative mx-2 my-10 flex flex-row gap-2 md:gap-12 transition-transform duration-300 transform ">
-        <Grid container spacing={3} justifyContent="center" alignItems="center">
-          {filteredItems.map((item, index) => (
-            <Grid item key={item.id}>
-              <FlashSaleItem
-                item={item}
-                index={index}
-                totalItems={filteredItems.length}
-                stars={item.stars}
-                rates={item.rates}
-              />
-            </Grid>
-          ))}
-        </Grid>
-      </div>
-      <div className="mt-6 flex justify-center gap-5 md:gap-20 items-center md:mx-12 ">
-        <Link to="..">
-          <WhiteButton name={i18n.t("whiteButtons.backToHomePage")} />
-        </Link>
-        <ViewAll name={i18n.t("redButtons.viewAllProducts")} />
+  return (
+    <div className="container mx-auto mt-40 flex flex-col gap-5 bg-gradient-to-br from-neutral-50 to-white min-h-screen">
+      <div className="px-4 py-8">
+        <Typography variant="h3" align="center" gutterBottom className="text-4xl font-bold text-neutral-800 mb-8">
+          Browse By <span className="gradient-text">Category</span>
+        </Typography>
+        
+        <div className="flex justify-center mb-8">
+          <Button
+            style={{
+              background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+              color: "white",
+              fontWeight: "bold",
+              padding: "12px 24px",
+              borderRadius: "12px",
+              textTransform: "capitalize",
+              boxShadow: "0 4px 15px rgba(102, 126, 234, 0.4)",
+            }}
+            variant="contained"
+            startIcon={<ArrowDropDownIcon />}
+            onClick={handleMenuOpen}
+            className="hover:shadow-lg transition-all duration-300"
+          >
+            {selectedCategory}
+          </Button>
+
+          <Menu
+            id="category-menu"
+            anchorEl={anchorEl}
+            open={Boolean(anchorEl)}
+            onClose={handleMenuClose}
+            className="mt-1 flex items-center justify-center mx-1"
+            PaperProps={{
+              style: {
+                borderRadius: "12px",
+                boxShadow: "0 10px 25px rgba(0, 0, 0, 0.1)",
+              },
+            }}
+          >
+            {categories.map((category) => (
+              <MenuItem
+                className="w-48 text-lg hover:bg-gradient-to-r hover:from-blue-50 hover:to-indigo-50 transition-all duration-200"
+                key={category}
+                onClick={() => handleCategorySelect(category)}
+              >
+                <span className="mx-auto font-medium">{category}</span>
+              </MenuItem>
+            ))}
+          </Menu>
+        </div>
+
+        <div className="text-center mb-8">
+          <Typography variant="h6" className="text-neutral-600 mb-2">
+            Showing {filteredItems.length} products in {selectedCategory}
+          </Typography>
+          <Typography variant="body1" className="text-neutral-500">
+            Discover amazing products in this category
+          </Typography>
+        </div>
+
+        <div className="relative mx-2 my-10 flex flex-row gap-2 md:gap-12 transition-transform duration-300 transform">
+          <Grid container spacing={4} justifyContent="center" alignItems="center">
+            {filteredItems.map((item, index) => (
+              <Grid item key={item.id} xs={12} sm={6} md={4} lg={3} xl={3}>
+                <FlashSaleItem
+                  item={item}
+                  index={index}
+                  totalItems={filteredItems.length}
+                  stars={item.stars}
+                  rates={item.rates}
+                />
+              </Grid>
+            ))}
+          </Grid>
+        </div>
+
+        {filteredItems.length === 0 && (
+          <div className="text-center py-16">
+            <Typography variant="h5" className="text-neutral-500 mb-4">
+              No products found in this category
+            </Typography>
+            <Typography variant="body1" className="text-neutral-400">
+              Please select a different category or check back later
+            </Typography>
+          </div>
+        )}
+
+        <div className="mt-12 flex justify-center gap-5 md:gap-20 items-center md:mx-12">
+          <Link to="..">
+            <WhiteButton name="Back to Home" />
+          </Link>
+          <ViewAll name="View All Products" />
+        </div>
       </div>
     </div>
   );

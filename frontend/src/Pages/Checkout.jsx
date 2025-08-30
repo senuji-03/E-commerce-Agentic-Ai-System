@@ -65,9 +65,17 @@ const Checkout = () => {
     }
   };
 
+  // Helper function to extract numeric price from "Rs. X,XXX" format
+  const extractPrice = (price) => {
+    if (typeof price === 'string' && price.startsWith('Rs.')) {
+      return Number(price.replace(/[^\d]/g, ''));
+    }
+    return Number(price) || 0;
+  };
+
   // Calculate subtotal of all cart items
   const subtotal = cartItems.reduce(
-    (acc, item) => acc + item.price * item.quantity,
+    (acc, item) => acc + extractPrice(item.price) * item.quantity,
     0
   );
 

@@ -1,12 +1,10 @@
 import i18n from "../common/components/LangConfig";
 import { Link } from "react-router-dom";
 import { ITEMS } from "../common/functions/items";
-import apple from "./apple.png";
 
 const Row1 = () => {
-  const dealItem = ITEMS.find(
-    (item) => item.title === i18n.t("itemsArray.17.title")
-  );
+  // Use a product from the new Electronics category (e.g., Laptop)
+  const dealItem = ITEMS.find(item => item.id === "e4") || ITEMS[0];
 
   return (
     <div className="flex flex-row ">
@@ -15,48 +13,28 @@ const Row1 = () => {
         <nav className="py-6">
           <ul>
             <li className="px-4 py-2 cursor-pointer hover:underline hover:underline-offset-8   ease-in-out  duration-300 transform hover:translate-x-4">
-              <Link to="/allProducts">
-                {i18n.t("homeSections.row1.col1.0")}
+              <Link to="/category/Electronics">
+                🖥️ Electronics
               </Link>
             </li>
             <li className="px-4 py-2 cursor-pointer hover:underline hover:underline-offset-8   ease-in-out  duration-300 transform hover:translate-x-4">
-              <Link to="/allProducts">
-                {i18n.t("homeSections.row1.col1.1")}{" "}
+              <Link to="/category/Fashion">
+                👗 Fashion
               </Link>
             </li>
             <li className="px-4 py-2 cursor-pointer hover:underline hover:underline-offset-8   ease-in-out  duration-300 transform hover:translate-x-4">
-              <Link to="/allProducts">
-                {i18n.t("homeSections.row1.col1.2")}{" "}
+              <Link to="/category/Kitchen & Dining">
+                🍽️ Kitchen & Dining
               </Link>
             </li>
             <li className="px-4 py-2 cursor-pointer hover:underline hover:underline-offset-8   ease-in-out  duration-300 transform hover:translate-x-4">
-              <Link to="/allProducts">
-                {i18n.t("homeSections.row1.col1.3")}{" "}
+              <Link to="/category/Beauty & Personal Care">
+                💄 Beauty & Personal Care
               </Link>
             </li>
             <li className="px-4 py-2 cursor-pointer hover:underline hover:underline-offset-8   ease-in-out  duration-300 transform hover:translate-x-4">
-              <Link to="/allProducts">
-                {i18n.t("homeSections.row1.col1.4")}{" "}
-              </Link>
-            </li>
-            <li className="px-4 py-2 cursor-pointer hover:underline hover:underline-offset-8   ease-in-out  duration-300 transform hover:translate-x-4">
-              <Link to="/allProducts">
-                {i18n.t("homeSections.row1.col1.5")}{" "}
-              </Link>
-            </li>
-            <li className="px-4 py-2 cursor-pointer hover:underline hover:underline-offset-8   ease-in-out  duration-300 transform hover:translate-x-4">
-              <Link to="/allProducts">
-                {i18n.t("homeSections.row1.col1.6")}{" "}
-              </Link>
-            </li>
-            <li className="px-4 py-2 cursor-pointer hover:underline hover:underline-offset-8   ease-in-out  duration-300 transform hover:translate-x-4">
-              <Link to="/allProducts">
-                {i18n.t("homeSections.row1.col1.7")}{" "}
-              </Link>
-            </li>
-            <li className="px-4 py-2 cursor-pointer hover:underline hover:underline-offset-8   ease-in-out  duration-300 transform hover:translate-x-4">
-              <Link to="/allProducts">
-                {i18n.t("homeSections.row1.col1.8")}{" "}
+              <Link to="/category/Home & Living">
+                🏠 Home & Living
               </Link>
             </li>
           </ul>
@@ -72,15 +50,14 @@ const Row1 = () => {
       >
         <div className="flex flex-col md:max-w-72 gap-5 items-center md:items-start justify-center md:ml-16">
           <div className="max-w-72 flex jusify-center items-center gap-6">
-            <img src={apple} alt="apple" />
-            <h1 className="text-lg">{i18n.t("homeSections.row1.col2.0")}</h1>
+            <h1 className="text-lg">Premium Quality</h1>
           </div>
           <h2 className="text-2xl md:text-5xl leading-10">
-            {i18n.t("homeSections.row1.col2.1")}
+            Discover Amazing Products
           </h2>
           <Link to="/allProducts">
             <button className="mb-8 md:mb-0 flex gap-2 underline underline-offset-8 py-2 px-6 focus:underline-offset-2  ease-in-out  duration-300 transform hover:translate-x-4">
-              <span>{i18n.t("homeSections.row1.col2.2")}</span>
+              <span>Shop Now</span>
               <svg
                 className="mt-1 "
                 width="24"
