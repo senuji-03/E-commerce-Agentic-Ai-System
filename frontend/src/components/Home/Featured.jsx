@@ -27,18 +27,12 @@ const Featured = () => {
       </button>
     );
   };
-  const playstationItem = ITEMS.find(
-    (item) => item.title === i18n.t("itemsArray.18.title")
-  );
-  const womenCollectionsItem = ITEMS.find(
-    (item) => item.title === i18n.t("itemsArray.20.title")
-  );
-  const speakersItem = ITEMS.find(
-    (item) => item.title === i18n.t("itemsArray.19.title")
-  );
-  const perfumesItem = ITEMS.find(
-    (item) => item.title === i18n.t("itemsArray.16.title")
-  );
+  
+  // Use products from the new structure
+  const playstationItem = ITEMS.find(item => item.id === "e16") || ITEMS[0]; // VR Headset
+  const womenCollectionsItem = ITEMS.find(item => item.id === "f6") || ITEMS[0]; // Dress
+  const speakersItem = ITEMS.find(item => item.id === "e10") || ITEMS[0]; // Portable Bluetooth Speaker
+  const perfumesItem = ITEMS.find(item => item.id === "bp9") || ITEMS[0]; // Perfume
 
   return (
     <div className="flex flex-col my-24 mx-auto">
@@ -58,7 +52,7 @@ const Featured = () => {
               >
                 <img
                   loading="lazy"
-                  className="w-full h-full transition-transform duration-300 transform  hover:-translate-y-4  hover:scale-101 hover:motion-safe:animate-pulse opacity-50 hover:opacity-100"
+                  className="w-full h-full transition-transform duration-300 transform  hover:translate-y-4  hover:scale-101 hover:motion-safe:animate-pulse opacity-50 hover:opacity-100"
                   src={playstationItem.imageSrc}
                   alt={playstationItem.title}
                 />

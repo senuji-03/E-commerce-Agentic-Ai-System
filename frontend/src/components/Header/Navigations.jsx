@@ -28,6 +28,7 @@ const Navigations = () => {
   const routes = [
     { path: "/", label: i18n.t("home") },
     { path: "/allProducts", label: i18n.t("allProducts.redTitle") },
+    { path: "/productTable", label: "Product Catalog" },
     { path: "/contact", label: i18n.t("contact") },
     { path: "/about", label: i18n.t("about") },
     ...(currentUser

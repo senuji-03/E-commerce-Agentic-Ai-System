@@ -29,7 +29,7 @@ const CheckoutCartItem = ({ item }) => {
       </div>
       <div className="flex items-center ">
         <p className="text-gray-500">
-          ${item.price}
+          {item.price}
           {quantity >= 1 ? ` x ${quantity}` : ""}
         </p>
       </div>

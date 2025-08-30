@@ -90,10 +90,10 @@ const FlashSaleItem = ({ item }) => {
       <div className="flex md:items-start items-center flex-col ">
         <h3 className="text-lg font-base mt-4">{item.title}</h3>
         <p className="text-red-500  text-sm font-semibold line-clamp-2">
-          ${item.price}
+          {item.price}
           {item.discount && (
             <span className="ml-2 text-gray-500 text-sm font-semibold line-through">
-              ${item.price + (item.price * item.discount) / 100}
+              {item.price}
             </span>
           )}
         </p>
