@@ -8,6 +8,7 @@ import i18n from "./components/common/components/LangConfig";
 import routes from "./routes";
 import Loading from "./components/common/components/Loading";
 import ScrollToTop from "./components/common/components/ScrollToTop";
+
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -30,7 +31,10 @@ function App() {
 
   return (
     <Router>
-      <div dir={i18n.t("dir")} className={`${i18n.t("font")} max-w-[2536px] mx-auto`}>
+      <div 
+        dir={i18n.t("dir")} 
+        className={`font-modern max-w-[2536px] mx-auto bg-gradient-to-br from-white to-neutral-50 min-h-screen`}
+      >
         <LangProvider>
           {/* <SelectedProductProvider> */}
           <CartProvider>

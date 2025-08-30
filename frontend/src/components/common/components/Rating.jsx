@@ -92,7 +92,7 @@ const RatingComp = ({ text, variant, item }) => {
                 <span className="flex items-center gap-2">
                   Price:
                   <span className="text-red-600 font-semibold">
-                    ${item.price.toFixed(2)}
+                    {item.price}
                   </span>
                 </span>
               </Typography>

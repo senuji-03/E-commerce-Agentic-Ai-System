@@ -13,9 +13,8 @@ const Deal = () => {
     calculateTimeLeft(tomorrow)
   );
 
-  const dealItem = ITEMS.find(
-    (item) => item.title === i18n.t("itemsArray.15.title")
-  );
+  // Use a product from the new structure (e.g., Smartwatch from Electronics)
+  const dealItem = ITEMS.find(item => item.id === "e3") || ITEMS[0];
 
   useEffect(() => {
     const timer = setTimeout(() => {

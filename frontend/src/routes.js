@@ -14,6 +14,7 @@ import Product from "./Pages/Product";
 import AllProducts from "./Pages/AllProducts";
 import NotFound from "./Pages/NotFound";
 import Category from "./Pages/Category";
+import ProductTable from "./components/common/components/ProductTable";
 
 const routes = [
   {
@@ -32,6 +33,7 @@ const routes = [
       { path: "payment", element: Payment },
       { path: "allProducts", element: AllProducts },
       { path: "category", element: Category },
+      { path: "productTable", element: ProductTable },
       { path: "allProducts/:title", element: Product },
       { path: "*", element: NotFound },
     ],
